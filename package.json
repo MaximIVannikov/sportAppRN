@@ -1,21 +1,25 @@
 {
-  "name": "sportapp",
-  "version": "1.0.0",
-  "main": "expo/AppEntry.js",
-  "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
-  },
-  "dependencies": {
-    "expo": "~51.0.26",
-    "expo-status-bar": "~1.12.1",
-    "react": "18.2.0",
-    "react-native": "0.74.5"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.20.0"
-  },
-  "private": true
+	"name": "sportapp",
+	"version": "1.0.0",
+	"main": "expo/AppEntry.js",
+	"scripts": {
+		"start": "expo start",
+		"android": "expo start --android",
+		"ios": "expo start --ios",
+		"web": "expo start --web"
+	},
+	"dependencies": {
+		"@reduxjs/toolkit": "^2.2.7",
+		"expo": "~51.0.26",
+		"expo-camera": "^15.0.14",
+		"expo-image-picker": "^15.0.7",
+		"expo-status-bar": "~1.12.1",
+		"react": "18.2.0",
+		"react-native": "0.74.5",
+		"react-redux": "^9.1.2"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.20.0"
+	},
+	"private": true
 }
